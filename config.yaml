@@ -1,0 +1,57 @@
+# ---- Search ----
+keywords:
+  - "Data Engineer"
+  - "Azure Data Engineer"
+  - "AWS Data Engineer"
+location: "Pune, India"
+days: 7                  # 1, 7 or 30
+max_jobs_per_keyword: 50
+experience_levels: [2, 3]     # LinkedIn: 2 = Entry level, 3 = Associate
+min_required_years: 1         # keep jobs asking at least this many years...
+max_required_years: 2         # ...and at most this many (you have 1.3 yrs)
+include_unspecified_experience: true  # keep jobs that don't mention years
+
+# ---- Your resume (PDF, .md or .txt) ----
+resume_file: "master_resume.pdf"
+output_formats: [pdf, docx, md]   # formats for tailored resume + cover letter
+
+# ---- Matching ----
+min_score: 60            # only tailor jobs scoring >= this (0-100)
+max_process_per_run: 15  # cap how many JDs/tailorings per run
+skills_vocab:            # skills to look for in JDs and in your resume
+  - python
+  - sql
+  - pyspark
+  - spark
+  - aws
+  - azure
+  - glue
+  - redshift
+  - s3
+  - lambda
+  - athena
+  - databricks
+  - data factory
+  - synapse
+  - airflow
+  - kafka
+  - snowflake
+  - etl
+  - elt
+  - data warehouse
+  - data lake
+  - dbt
+  - docker
+  - git
+  - terraform
+  - power bi
+  - scala
+  - hive
+  - hadoop
+
+# ---- Tailoring (Claude API) ----
+model: "claude-sonnet-5-5"
+candidate_name: "Bhausaheb Markande"
+
+# ---- Scheduler (python main.py --schedule) ----
+run_daily_at: "09:00"

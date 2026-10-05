@@ -1,0 +1,8 @@
+pip install -r "requirements(1).txt"requests
+beautifulsoup4
+pyyaml
+anthropic
+python-docx
+pypdf
+reportlab
+schedule
