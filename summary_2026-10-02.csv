@@ -1,0 +1,4 @@
+id,title,company,location,posted,url,years_required,score,matched,missing,folder
+4473520478,"Specialist, ETL Developer - Master Data Management Ecosystem",Entegris,"Pune Division, Maharashtra, India",2026-09-29,https://in.linkedin.com/jobs/view/specialist-etl-developer-master-data-management-ecosystem-at-entegris-4473520478,,100,etl,,
+4470858019,Associate - Platform Services,ZS,"Pune Division, Maharashtra, India",2026-09-28,https://in.linkedin.com/jobs/view/associate-platform-services-at-zs-4470858019,2,100,"sql, aws, azure, etl",,
+4472708518,Data Engineer,AlphaSense,"Pune Division, Maharashtra, India",2026-09-28,https://in.linkedin.com/jobs/view/data-engineer-at-alphasense-4472708518,,90,"python, sql, redshift, databricks, snowflake, etl, elt, git, power bi",dbt,
